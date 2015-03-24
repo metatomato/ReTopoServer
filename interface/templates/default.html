@@ -4,32 +4,42 @@
     <title>ReTopoServer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-    <script src="/static/jQuery/jquery.js"></script>
 </head>
 
 <body>
     <h1>HELLO SEÑOR METATOMATO!!</h1>
      <p><a href="/static/kyoto_journey.png" download>DOWNLOAD</a></p>
 
-    <div id="images"></div>
-    <script>
-    (function() {
-    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-    $.getJSON( flickerAPI, {
-    tags: "mount rainier",
-    tagmode: "any",
-    format: "json"
-    })
-    .done(function( data ) {
-    $.each( data.items, function( i, item ) {
-    $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
-    if ( i === 3 ) {
-    return false;
-    }
-    });
-    });
-    })();
-    </script>
 </body>
+
+<script src="/static/jQuery/jquery.js"></script>
+
+<script>
+
+
+(function($) {
+var url = 'http://localhost:8000/topo?callback=?';
+
+    $.ajax({
+       type: 'GET',
+        url: url,
+        async: false,
+        jsonpCallback: 'jsonCallback',
+        contentType: "application/json",
+        dataType: 'jsonp',
+        success: function(json) {
+           console.log(json.topo[0].properties.title);
+        },
+        error: function(e) {
+           console.log(e.message);
+        }
+    });
+
+})(jQuery);
+
+
+
+
+</script>
 
 </html>

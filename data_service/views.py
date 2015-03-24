@@ -8,4 +8,5 @@ def view_data(request):
     topo_path = os.path.join(current_path,'static/media/topo/kyoto.topo')
     with open (topo_path, "r") as myfile:
         topo=myfile.read().replace('\n', '')
-    return HttpResponse(topo, content_type="text/plain")
+    response = "jsonCallback("+topo+");"
+    return HttpResponse(response, content_type="application/json")
