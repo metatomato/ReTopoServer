@@ -4,7 +4,8 @@ import random
 
 
 REPO_URL = 'https://www.github.com/metatomato/ReTopoServer.git'
-SERVER_REPO = 'SITES/retopo.studio.iglou.gl'
+SERVICE_URL = 'retopo.studio.iglou.gl'
+SERVER_REPO = 'SITES/' + SERVICE_URL
 DJANGO_PROJECT = 'ReTopoServer'
 
 def deploy():
@@ -13,7 +14,7 @@ def deploy():
     source_folder = site_folder + '/source'
     _create_directory_structure_if_necessary(site_folder)
     _get_latest_source(source_folder)
-    _update_settings(source_folder, env.host)
+    _update_settings(source_folder, SERVICE_URL)
     _update_virtualenv(source_folder)
     _update_static_files(source_folder)
     _update_database(source_folder)
