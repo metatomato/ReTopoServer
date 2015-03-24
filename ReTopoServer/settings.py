@@ -22,7 +22,7 @@ SECRET_KEY = '$ht(hm^%r59^b#=)k2czu)efg*16@-0a)2eki-8c$lu7hwd0un'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
