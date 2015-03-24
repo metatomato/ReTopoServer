@@ -1,0 +1,586 @@
+{
+    "topo": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.011724,
+                    135.768846
+                ]
+            },
+            "properties": {
+                "id" : 0,
+                "activity": "journey",
+                "date": 1424626225,
+                "photos": [
+                    "kyoto_journey.png"
+                ],
+                "title": "Alone in Kyoto",
+                "comment": "A Kyoto shrines tour.",
+                "tags": [
+                    "topo"
+                ],
+                "favorite": true,
+                "rate": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        35.039294,
+                        135.731853
+                    ],
+                    [
+                        35.039101,
+                        135.731188
+                    ],
+                    [
+                        35.038925,
+                        135.73034
+                    ],
+                    [
+                        35.038521,
+                        135.729664
+                    ],
+                    [
+                        35.038512,
+                        135.728698
+                    ],
+                    [
+                        35.039004,
+                        135.727754
+                    ],
+                    [
+                        35.039522,
+                        135.727411
+                    ],
+                    [
+                        35.039996,
+                        135.728119
+                    ],
+                    [
+                        35.039961,
+                        135.728967
+                    ],
+                    [
+                        35.039768,
+                        135.729997
+                    ],
+                    [
+                        35.039294,
+                        135.73137
+                    ],
+                    [
+                        35.039057,
+                        135.731874
+                    ],
+                    [
+                        35.038196,
+                        135.73123
+                    ],
+                    [
+                        35.037388,
+                        135.730458
+                    ],
+                    [
+                        35.03506,
+                        135.728173
+                    ],
+                    [
+                        35.034753,
+                        135.726886
+                    ],
+                    [
+                        35.034735,
+                        135.72533
+                    ],
+                    [
+                        35.033883,
+                        135.723324
+                    ],
+                    [
+                        35.032925,
+                        135.720663
+                    ],
+                    [
+                        35.033197,
+                        135.72033
+                    ],
+                    [
+                        35.033689,
+                        135.720094
+                    ],
+                    [
+                        35.033777,
+                        135.71944
+                    ],
+                    [
+                        35.033716,
+                        135.718839
+                    ],
+                    [
+                        35.033646,
+                        135.718131
+                    ],
+                    [
+                        35.033409,
+                        135.717841
+                    ],
+                    [
+                        35.032864,
+                        135.717841
+                    ],
+                    [
+                        35.032644,
+                        135.718249
+                    ],
+                    [
+                        35.032486,
+                        135.718549
+                    ],
+                    [
+                        35.032486,
+                        135.719311
+                    ],
+                    [
+                        35.032583,
+                        135.719923
+                    ],
+                    [
+                        35.03289,
+                        135.720953
+                    ],
+                    [
+                        35.032987,
+                        135.721447
+                    ],
+                    [
+                        35.032126,
+                        135.721415
+                    ],
+                    [
+                        35.03188,
+                        135.722037
+                    ],
+                    [
+                        35.031871,
+                        135.72311
+                    ],
+                    [
+                        35.031906,
+                        135.72473
+                    ],
+                    [
+                        35.031247,
+                        135.726028
+                    ],
+                    [
+                        35.031537,
+                        135.727852
+                    ],
+                    [
+                        35.031862,
+                        135.728968
+                    ],
+                    [
+                        35.031976,
+                        135.730416
+                    ],
+                    [
+                        35.03231,
+                        135.730609
+                    ],
+                    [
+                        35.032284,
+                        135.731499
+                    ],
+                    [
+                        35.032714,
+                        135.731488
+                    ],
+                    [
+                        35.032855,
+                        135.731799
+                    ],
+                    [
+                        35.032688,
+                        135.732389
+                    ],
+                    [
+                        35.032143,
+                        135.732421
+                    ],
+                    [
+                        35.032433,
+                        135.731885
+                    ],
+                    [
+                        35.0326,
+                        135.731767
+                    ],
+                    [
+                        35.032881,
+                        135.73152
+                    ],
+                    [
+                        35.033013,
+                        135.73211
+                    ],
+                    [
+                        35.032987,
+                        135.732507
+                    ],
+                    [
+                        35.032442,
+                        135.734309
+                    ],
+                    [
+                        35.031985,
+                        135.735811
+                    ],
+                    [
+                        35.031142,
+                        135.736058
+                    ],
+                    [
+                        35.031124,
+                        135.735436
+                    ],
+                    [
+                        35.031168,
+                        135.735125
+                    ],
+                    [
+                        35.031642,
+                        135.735114
+                    ],
+                    [
+                        35.031396,
+                        135.735661
+                    ],
+                    [
+                        35.03093,
+                        135.735715
+                    ],
+                    [
+                        35.030482,
+                        135.735651
+                    ],
+                    [
+                        35.030078,
+                        135.73549
+                    ],
+                    [
+                        35.03035,
+                        135.734578
+                    ],
+                    [
+                        35.031062,
+                        135.734524
+                    ],
+                    [
+                        35.031861,
+                        135.734599
+                    ],
+                    [
+                        35.031914,
+                        135.735361
+                    ],
+                    [
+                        35.032353,
+                        135.735919
+                    ],
+                    [
+                        35.033846,
+                        135.735876
+                    ],
+                    [
+                        35.034417,
+                        135.737121
+                    ],
+                    [
+                        35.034224,
+                        135.740136
+                    ],
+                    [
+                        35.035129,
+                        135.740984
+                    ],
+                    [
+                        35.036745,
+                        135.740083
+                    ],
+                    [
+                        35.037922,
+                        135.739568
+                    ],
+                    [
+                        35.038317,
+                        135.739375
+                    ],
+                    [
+                        35.039046,
+                        135.739198
+                    ],
+                    [
+                        35.03916,
+                        135.740158
+                    ],
+                    [
+                        35.039169,
+                        135.740517
+                    ],
+                    [
+                        35.039033,
+                        135.740748
+                    ],
+                    [
+                        35.039116,
+                        135.740963
+                    ],
+                    [
+                        35.038932,
+                        135.741462
+                    ],
+                    [
+                        35.039204,
+                        135.741677
+                    ],
+                    [
+                        35.039006,
+                        135.74224
+                    ],
+                    [
+                        35.038659,
+                        135.743071
+                    ]
+                ]
+            },
+            "properties": {
+                "id" : 1,
+                "activity": "",
+                "date": 0,
+                "photos": [
+                    ""
+                ],
+                "title": "",
+                "comment": "",
+                "tags": [
+                    "GPX"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.039294,
+                    135.731853
+                ]
+            },
+            "properties": {
+                "id" : 2,
+                "activity": "",
+                "date": 1424597865,
+                "photos": [
+                    "kinkakuji.jpg"
+                ],
+                "title": "Kinkakuji Shrine",
+                "comment": "Beautiful light in the morning",
+                "tags": [
+                    "milestone",
+                    "photo"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.039057,
+                    135.731874
+                ]
+            },
+            "properties": {
+                "id" : 3,
+                "activity": "",
+                "date": 1424601023,
+                "photos": [
+                    ""
+                ],
+                "title": "Bus Stop Line A43",
+                "comment": "Take the Kawachiga endline, every 5 min.",
+                "tags": [
+                    "milestone",
+                    "photo"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.033197,
+                    135.72033
+                ]
+            },
+            "properties": {
+                "id" : 4,
+                "activity": "",
+                "date": 1424603107,
+                "photos": [
+                    "ryoanji.jpg"
+                ],
+                "title": "Ryoan Shrine",
+                "comment": "Nice zen garden!",
+                "tags": [
+                    "milestone",
+                    "photo"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.031906,
+                    135.724730
+                ]
+            },
+            "properties": {
+                "id" : 5,
+                "activity": "",
+                "date": 1424608223,
+                "photos": [
+                    ""
+                ],
+                "title": "Launch Time",
+                "comment": "Excellent ramen reseller on the main street!",
+                "tags": [
+                    "milestone"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.032855,
+                    135.731799
+                ]
+            },
+            "properties": {
+                "id" : 6,
+                "activity": "",
+                "date": 1424612743,
+                "photos": [
+                    "hiranoji.jpg"
+                ],
+                "title": "Hirano Shire",
+                "comment": "Cherry Blosom!",
+                "tags": [
+                    "milestone",
+                    "photo"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.031124,
+                    135.735436
+                ]
+            },
+            "properties": {
+                "id" : 7,
+                "activity": "",
+                "date": 1424621192,
+                "photos": [
+                    "higashimukaikannonji.jpg"
+                ],
+                "title": "Higashimukaikannon Shrine",
+                "comment": "Nice shrine in a beautiful park!",
+                "tags": [
+                    "milestone",
+                    "photo"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.035129,
+                    135.740984
+                ]
+            },
+            "properties": {
+                "id" : 8,
+                "activity": "",
+                "date": 1424625803,
+                "photos": [
+                    ""
+                ],
+                "title": "Park direction info.",
+                "comment": "Walk to Nishiitsutsuji Kitamachi. Turn left and go forward up to the park entrance.",
+                "tags": [
+                    "milestone"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.039169,
+                    135.740517
+                ]
+            },
+            "properties": {
+                "id" : 9,
+                "activity": "",
+                "date": 1424630091,
+                "photos": [
+                    "funaokayama_park.jpg"
+                ],
+                "title": "Funaokayama Park.",
+                "comment": "Do not miss the Kenkun shrine at the south entrance.",
+                "tags": [
+                    "milestone",
+                    "photo"
+                ],
+                "favorite": false,
+                "rate": 0
+            }
+        }
+    ]
+}
