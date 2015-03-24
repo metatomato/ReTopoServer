@@ -64,7 +64,7 @@ WSGI_APPLICATION = 'ReTopoServer.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, '../../Database/db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, '../database/db.sqlite3'),
     }
 }
 
@@ -87,6 +87,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #Path for collectstatic output (production)
-STATIC_ROOT = os.path.abspath(os.path.join(BASE_DIR,'../../Static'))
+STATIC_ROOT = os.path.abspath(os.path.join(BASE_DIR,'../static'))
 #Path for global static files (not specificlly app-related )
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)

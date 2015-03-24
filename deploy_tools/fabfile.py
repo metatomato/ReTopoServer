@@ -3,9 +3,9 @@ from fabric.api import env, local, run
 import random
 
 
-REPO_URL = 'https://www.github.com/metatomato/iGLouWeb.git'
-SERVER_REPO = 'SITES/iglou.gl'
-DJANGO_PROJECT = 'iGLouWeb'
+REPO_URL = 'https://www.github.com/metatomato/ReTopoServer.git'
+SERVER_REPO = 'SITES/retopo.studio.iglou.gl'
+DJANGO_PROJECT = 'ReTopoServer'
 
 def deploy():
     site_folder = '/home/%s/' % (env.user,)
