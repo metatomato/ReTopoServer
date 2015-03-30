@@ -8,7 +8,7 @@
 
 <body>
     <h1>HELLO SEÑOR METATOMATO!!</h1>
-     <p><a href="/static/kyoto_journey.png" download>DOWNLOAD</a></p>
+     <p><a href="/static/media/kyoto_journey.png" download>DOWNLOAD</a></p>
 
 </body>
 
@@ -18,17 +18,19 @@
 
 
 (function($) {
-var url = 'http://localhost:8000/topo?callback=?';
+//var url = 'http://localhost:8000/retopo/topo';
+var url = 'http://cloud.iglou.gl/retopo/topo';
 
     $.ajax({
        type: 'GET',
         url: url,
+        data:{'user_id':'metatomato'},
         async: false,
-        jsonpCallback: 'jsonCallback',
+        jsonpCallback: 'topoRequest',
         contentType: "application/json",
         dataType: 'jsonp',
         success: function(json) {
-           console.log(json.topo[0].properties.title);
+           console.log(json.topo[0].properties.comment);
         },
         error: function(e) {
            console.log(e.message);
