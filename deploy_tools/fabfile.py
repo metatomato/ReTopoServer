@@ -7,7 +7,7 @@ REPO_URL = 'https://www.github.com/metatomato/ReTopoServer.git'
 PROJECT = 'retopo'
 SERVICE_DOMAIN = 'cloud.iglou.gl'
 SERVICE_URL = PROJECT + '.' + SERVICE_DOMAIN
-SERVER_REPO = 'SITES/' + SERVICE_DOMAIN + '/' + PROJECT
+SERVER_REPO = 'SITES/' + SERVICE_URL
 DJANGO_PROJECT = 'ReTopoServer'
 
 def deploy():
