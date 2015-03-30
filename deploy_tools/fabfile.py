@@ -4,8 +4,10 @@ import random
 
 
 REPO_URL = 'https://www.github.com/metatomato/ReTopoServer.git'
-SERVICE_URL = 'retopo.cloud.iglou.gl'
-SERVER_REPO = 'SITES/' + SERVICE_URL
+PROJECT = 'retopo'
+SERVICE_DOMAIN = 'cloud.iglou.gl'
+SERVICE_URL = PROJECT + '.' + SERVICE_DOMAIN
+SERVER_REPO = 'SITES/' + SERVICE_DOMAIN + '/' + PROJECT
 DJANGO_PROJECT = 'ReTopoServer'
 
 def deploy():
